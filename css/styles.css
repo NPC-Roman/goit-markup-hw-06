@@ -787,13 +787,33 @@ footer .socials-link:active {
   |============================
 */
 .test-0 {
-  display: flex;
+  
 }
 
 .test-1 {
-  display: flex;
+  margin-left: 80px;
+ 
 }
 
-.test-2 {
-  display: flex;
+.test-2 {  
+  font-weight: 500;
+  color: var(--white-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-top: 0;
+  margin-bottom: 16px;
 }
+
+/*.test-3 {
+  border: 1px solid #FFFFFF;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+}*/
+
+
+.test-3 {
+
+}
+  
+.test-4 {}
