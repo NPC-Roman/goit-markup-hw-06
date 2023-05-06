@@ -170,11 +170,11 @@ img {
   margin-right: 40px;
 }
 
-.header-list .header-item.active {  
-  color: var(--hover-color);  
+.header-list .header-item.active {
+  color: var(--hover-color);
 }
-.header-list .header-item.active::after {  
-  opacity: 1;  
+.header-list .header-item.active::after {
+  opacity: 1;
 }
 
 .header-item {
@@ -189,7 +189,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 
-  color: var(--dark-text-color);  
+  color: var(--dark-text-color);
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -298,7 +298,7 @@ img {
   height: 56px;
   min-width: 169px;
   margin: 0 auto;
-  
+
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -787,13 +787,12 @@ footer .socials-link:active {
   |============================
 */
 .footer-form {
-  
 }
 
 .form-container {
   margin-left: 80px;
   display: flex;
-  flex-direction: column 
+  flex-direction: column;
 }
 
 /*.form-label {  
@@ -808,11 +807,30 @@ footer .socials-link:active {
   margin-top: 16px;
   display: flex;
   flex-direction: row;
-  gap: 24px;  
+  gap: 24px;
 }
-  
+
 .form-button {
-  
+  min-width: 165px;
+  height: 40px;
+
+  background: #4d5ae5;
+  border-radius: 4px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  align-items: center;
+  text-align: left;
+  letter-spacing: 0.04em;
+
+  color: #ffffff;
+
+  border: 0;
+  padding: 8px 0 8px 24px;
 }
 
 /*.form-list input {
@@ -833,15 +851,47 @@ footer .socials-link:active {
 
 .form-container input {
   width: 264px;
+  height: 40px;
   padding: 0;
   margin: 0;
   border: none;
-  
+
+  border: 1px solid #ffffff;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+
+  background-color: var(--dark-text-color);
 }
 
 .form-container ul {
   margin-top: 16px;
   display: flex;
   flex-direction: row;
-  gap: 24px;  
+  gap: 24px;
+}
+
+.form-container input::placeholder {
+  color: white;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+
+  align-items: center;
+  letter-spacing: 0.04em;
+
+  padding: 8px 16px;
+}
+
+.test-01 {
+  position: relative;
+}
+
+.form-svg {
+  fill: #ffffff;
+  position: absolute;
+
+  top: 10px;
+  right: 24px;
 }
