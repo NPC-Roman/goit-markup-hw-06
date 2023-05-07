@@ -475,41 +475,61 @@
     <!--END-FOOTER-->
     <!--MODAL-->
     <div data-modal class="backdrop is-hidden">
-      <div class="modal">
-        <!--NEW-NEW-NEW-->
+      <div class="modal">        
         <button data-modal-close class="btn-modal" type="button">
           <svg class="svg-modal" width="8" height="8">
             <use href="./images/icons.svg#cross"></use>
           </svg>
         </button>
-        <form>
-          <div class="">
-            <div>
-              <label for="name">Name</label>
-              <input type="text" id="name" name="name" />
+      
+        <!--NEW-NEW-NEW-->
+        <form class="modal-form">
+          <h2 class="modal-slogan">Leave your contacts and we will call you back</h2>
+            <div class="modal-flex">
+
+              
+
+              
+              <label for="name">Name</label>      
+              
+             
+              <input  type="text" id="name" name="name" />
+             
+
+                <svg class="svg-modal-form" width="18" height="18">
+                  <use href="./images/person.svg#icon-personvector"></use>
+                </svg>
+              
+
+          
+              
+              
+                
             </div>
-            <div>
+            <div class="modal-flex">
               <label for="tel">Phone</label>
               <input type="tel" id="tel" name="phone" />
             </div>
-            <div>
+            <div class="modal-flex">
               <label for="mail">Email</label>
               <input type="email" id="mail" name="mail" />
             </div>
-            <div>
-              <textarea name="" id="" rows="10"></textarea>
+            <div class="modal-flex">
+              <label for="textarea">Comment</label>
+              <textarea name="textarea" id="textarea"></textarea>
             </div>
-            <div>
-              <label for="check"
-                >I accept the terms and conditions of the Privacy Policy</label
-              >
-            </div>
-            <div>
+            <div class="modal-checkbox">
               <input type="checkbox" id="check" name="accept" />
-              <button type="submit"></button>
+              <label for="check"
+                >I accept the terms and conditions of the<span> Privacy Policy</span>
+                </label>
             </div>
-          </div>
-        </form>
+          </form>
+            <div class="test-m-b">             
+              <button class="modal-button" type="submit">Send</button>
+            </div>
+          
+        
       </div>
     </div>
     <script src="./js/modal.js"></script>

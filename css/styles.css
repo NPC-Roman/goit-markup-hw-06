@@ -895,3 +895,127 @@ footer .socials-link:active {
   top: 10px;
   right: 24px;
 }
+
+/*NEW-NEW-NEW*/
+
+.modal-form {
+  margin: 72px 24px 24px 24px;
+}
+
+.modal-slogan {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #2e2f42;
+  margin: 0 0 16px 0;
+}
+
+.modal-flex {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.modal-label {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+
+  letter-spacing: 0.04em;
+
+  color: #8e8f99;
+}
+
+.modal-flex label {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+
+  letter-spacing: 0.04em;
+
+  color: #8e8f99;
+}
+
+.modal-flex input {
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  background: #fcfcfc;
+  border-radius: 4px;
+  height: 40px;
+
+  padding-left: 38px;
+}
+
+.modal-flex textarea {
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  background: #fcfcfc;
+  border-radius: 4px;
+
+  height: 120px;
+}
+
+.modal-checkbox label {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+
+  letter-spacing: 0.04em;
+
+  color: #8e8f99;
+}
+
+.modal-button {
+  width: 169px;
+  height: 56px;
+
+  left: 635px;
+  top: 584px;
+
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  color: #ffffff;
+
+  border: none;
+  cursor: pointer;
+}
+
+.test-m-b {
+  margin-top: 24px;
+  margin-right: 120px;
+  margin-left: 119px;
+}
+
+.svg-modal-form {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.test-000 {
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  width: 20px;
+  height: 20px;
+
+  background-color: red;
+}
