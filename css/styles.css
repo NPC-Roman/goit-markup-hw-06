@@ -786,118 +786,107 @@ footer .socials-link:active {
   |----------------------------
   |============================
 */
-.footer-form {
-}
-
-.form-container {
+.subscribe-container {
   margin-left: 80px;
-  display: flex;
-  flex-direction: column;
+  display: flex;  
 }
 
-/*.form-label {  
-  font-weight: 500;
-  color: var(--white-color);
+.subscribe-container label {
+  font-weight: 500;  
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}*/
 
-.form-list {
+  color: var(--white-color);
+}
+
+.subscribe-container ul {
   margin-top: 16px;
   display: flex;
   flex-direction: row;
   gap: 24px;
 }
 
-.form-button {
-  min-width: 165px;
-  height: 40px;
-
-  background: #4d5ae5;
-  border-radius: 4px;
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-
-  align-items: center;
-  text-align: left;
-  letter-spacing: 0.04em;
-
-  color: #ffffff;
-
-  border: 0;
-  padding: 8px 0 8px 24px;
-}
-
-/*.form-list input {
+.subscribe-container input {
   width: 264px;
-  padding: 0;
-  margin: 0;
-  border: none;
+  height: 40px;
   
-} */
-
-.form-container label {
-  font-weight: 500;
-  color: var(--white-color);
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-.form-container input {
-  width: 264px;
-  height: 40px;
-  padding: 0;
-  margin: 0;
-  border: none;
-
-  border: 1px solid #ffffff;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  padding: 8px 16px 8px 16px;
+  margin: 0;  
+  
+  border: 1px solid var(--white-color);
+  background-color: var(--dark-text-color);
   border-radius: 4px;
 
-  background-color: var(--dark-text-color);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  
+  color: var(--white-color);
 }
 
-.form-container ul {
-  margin-top: 16px;
-  display: flex;
-  flex-direction: row;
-  gap: 24px;
-}
-
-.form-container input::placeholder {
-  color: white;
-  font-family: 'Roboto';
-  font-style: normal;
+.subscribe-container input::placeholder {  
+  
+  font-family: var(--primary-font);  
   font-weight: 400;
   font-size: 12px;
-  line-height: 24px;
-
-  align-items: center;
+  line-height: 2;
   letter-spacing: 0.04em;
 
-  padding: 8px 16px;
+  align-items: center;
+
+  color: var(--white-color); 
 }
 
-.test-01 {
+.subscribe-item {
   position: relative;
 }
 
-.form-svg {
-  fill: #ffffff;
+.subscribe-button {
+  min-width: 165px;
+  height: 40px;
+  
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  align-items: center;
+  text-align: left;  
+
+  color: var(--white-color);
+  background: var(--primary-color);
+
+  border-radius: 4px;
+  border: 0;
+  padding: 8px 0 8px 24px;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subscribe-button:hover,
+.subscribe-button:focus,
+.subscribe-button:active{
+background-color: var(--hover-color);
+}
+
+.subscribe-svg {
+  fill: var(--white-color);
   position: absolute;
 
   top: 10px;
-  right: 24px;
+  left: 117px;
 }
 
-/*NEW-NEW-NEW*/
 
+
+
+
+
+
+
+
+
+/*NEW-NEW-NEW*/
 .modal-form {
   margin: 72px 24px 24px 24px;
 }
@@ -916,6 +905,93 @@ footer .socials-link:active {
   margin: 0 0 16px 0;
 }
 
+.modal-item {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.modal-item label {
+  margin-bottom: 4px;
+
+  font-family: 'Roboto';  
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.04em;
+  
+  color: #8E8F99;  
+}
+
+.modal-item input {
+  height: 40px;
+  width: 360px; 
+  
+  padding-left: 38px;
+  outline: none;
+
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+}
+
+.modal-input {
+  position: relative;
+}
+
+.modal-svg {
+  position: absolute;
+  top: 11px;
+  left: 16px;
+
+  fill: #2E2F42;
+}
+
+.modal-svg-tel {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+
+  fill: #2E2F42;
+}
+
+.modal-item input:focus {
+  border: 1px solid #4D5AE5;
+}
+
+.modal-item input:focus + svg {
+  fill: #4D5AE5;
+}
+
+.modal-item textarea {
+  width: 360px;
+  height: 120px;
+ 
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  
+}
+
+.modal-item textarea::placeholder {
+  padding-top: 8px;
+  padding-left: 16px;
+  
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.04em;
+
+  color: rgba(46, 47, 66, 0.4);
+}
+
+.modal-item textarea:focus,
+.modal-item textarea:active {
+  border: 1px solid #4D5AE5;
+  color: #404bbf;
+}
+
+
+
+/*
 .modal-flex {
   display: flex;
   flex-direction: column;
