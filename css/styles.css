@@ -991,7 +991,7 @@ background-color: var(--hover-color);
 
 .checkbox-label {
   padding: 0px;
-  gap: 8px;
+  /*gap: 8px;*/
 
   display: flex;
   flex-direction: row;
@@ -1025,15 +1025,16 @@ background-color: var(--hover-color);
 }
 
 .checkbox-text {   
+  margin-left: 8px;
+
   font-family: var(--primary-font);  
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
 
-  color: var(--subtle-text-color);
+  color: var(--subtle-text-color);  
 }
-
 
 input[type="checkbox"] {
   position: absolute;
@@ -1053,6 +1054,8 @@ input[type="checkbox"] {
 }
 
 .checkbox-text-underline {
+  margin-left: 2px;
+
   font-family: var(--primary-color); 
   font-weight: 400;
   font-size: 12px;
@@ -1062,8 +1065,6 @@ input[type="checkbox"] {
   color: var(--primary-color);
   text-decoration: underline;
 }
-
-
 /*
 .modal-flex {
   display: flex;
