@@ -451,18 +451,16 @@
         <!--SUBSCRIBE-->
         <div class="subscribe-container">
           <p>Subscribe</p>
-          <form class="subscribe-form">            
-                <input
-                  type="email"                  
-                  name="email"
-                  placeholder="E-mail"
-                />              
-              <div class="subscribe-item">
-                <button class="subscribe-button" type="submit">Subscribe
-                  <svg class="subscribe-svg" width="24" height="20">
-                    <use href="./images/icons.svg#paperplane"></svg>
-                </button>
-              </div> 
+          <form class="subscribe-form">
+            <input type="email" name="email" placeholder="E-mail" />
+            <div class="subscribe-item">
+              <button class="subscribe-button" type="submit">
+                Subscribe
+                <svg class="subscribe-svg" width="24" height="20">
+                  <use href="./images/icons.svg#paperplane"></use>
+                </svg>
+              </button>
+            </div>
           </form>
         </div>
         <!--END-SUBSCRIBE-->
@@ -471,60 +469,71 @@
     <!--END-FOOTER-->
     <!--MODAL-->
     <div data-modal class="backdrop is-hidden">
-      <div class="modal">        
+      <div class="modal">
         <button data-modal-close class="btn-modal" type="button">
           <svg class="svg-modal" width="8" height="8">
             <use href="./images/icons.svg#cross"></use>
           </svg>
-        </button>      
+        </button>
         <!--MODAL-SEND-FORM-->
-        <strong class="modal-slogan">Leave your contacts and we will call you back</strong>  
-        <form>           
-          <div class="modal-item">                         
-              <label for="name">Name</label>   
-                <div class="modal-input">      
-                  <input type="text" id="name" name="name user" />
-                    <svg class="modal-svg" width="18" height="18">
-                      <use href="./images/icons.svg#personb"></use>
-                     </svg>
-                </div>
+        <strong class="modal-slogan"
+          >Leave your contacts and we will call you back</strong
+        >
+        <form>
+          <div class="modal-item">
+            <label for="name">Name</label>
+            <div class="modal-input">
+              <input type="text" id="name" name="name user" />
+              <svg class="modal-svg" width="18" height="18">
+                <use href="./images/icons.svg#personb"></use>
+              </svg>
+            </div>
           </div>
-          <div class="modal-item">                         
-            <label for="tel">Phone</label>   
-              <div class="modal-input">      
-                <input type="tel" id="tel" name="phone user" />
-                  <svg class="modal-svg tel-mail" width="18" height="24">
-                    <use href="./images/icons.svg#phone"></use>
-                   </svg>
-              </div>
+          <div class="modal-item">
+            <label for="tel">Phone</label>
+            <div class="modal-input">
+              <input type="tel" id="tel" name="phone user" />
+              <svg class="modal-svg tel-mail" width="18" height="24">
+                <use href="./images/icons.svg#phone"></use>
+              </svg>
+            </div>
           </div>
-          <div class="modal-item">                         
-            <label for="mail">Email</label>   
-              <div class="modal-input">      
-                <input type="email" id="mail" name="mail user" />
-                  <svg class="modal-svg tel-mail" width="18" height="24">
-                    <use href="./images/icons.svg#mail"></use>
-                   </svg>
-              </div>
+          <div class="modal-item">
+            <label for="mail">Email</label>
+            <div class="modal-input">
+              <input type="email" id="mail" name="mail user" />
+              <svg class="modal-svg tel-mail" width="18" height="24">
+                <use href="./images/icons.svg#mail"></use>
+              </svg>
+            </div>
           </div>
-          <div class="modal-item checkbox">                         
-            <label for="text">Comment</label>                 
-                <textarea id="text" name="comment user" placeholder="Text input"></textarea>    
+          <div class="modal-item checkbox">
+            <label for="text">Comment</label>
+            <textarea
+              id="text"
+              name="comment user"
+              placeholder="Text input"
+            ></textarea>
           </div>
           <div class="checkbox-container">
-          <label class="checkbox-label">
-            <input class="checkbox-input" type="checkbox" name="check" >
-              <span class="checkbox-icon"><svg class="checkbox-svg" width="10" height="8"><use href="./images/icons.svg#accept"></use></svg>
+            <label class="checkbox-label">
+              <input class="checkbox-input" type="checkbox" name="check" />
+              <span class="checkbox-icon"
+                ><svg class="checkbox-svg" width="10" height="8">
+                  <use href="./images/icons.svg#accept"></use>
+                </svg>
               </span>
-                <span class="checkbox-text">I accept the terms and conditions of the</span>
-                  <span class="checkbox-text-link">Privacy Policy</span>
-          </label>
+              <span class="checkbox-text"
+                >I accept the terms and conditions of the</span
+              >
+              <span class="checkbox-text-link">Privacy Policy</span>
+            </label>
           </div>
-          <div class="modal-btn-container">             
+          <div class="modal-btn-container">
             <button class="modal-button" type="submit">Send</button>
-          </div>          
-          </form>
-          <!--END-MODAL-SEND-FORM-->        
+          </div>
+        </form>
+        <!--END-MODAL-SEND-FORM-->
       </div>
     </div>
     <script src="./js/modal.js"></script>
