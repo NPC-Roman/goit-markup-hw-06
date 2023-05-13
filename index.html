@@ -452,15 +452,18 @@
         <div class="subscribe-container">
           <p>Subscribe</p>
           <form class="subscribe-form">
-            <input type="email" name="email" placeholder="E-mail" />
-            <div class="subscribe-item">
-              <button class="subscribe-button" type="submit">
-                Subscribe
-                <svg class="subscribe-svg" width="24" height="20">
-                  <use href="./images/icons.svg#paperplane"></use>
-                </svg>
-              </button>
-            </div>
+            <input
+              type="email"
+              name="email"
+              placeholder="E-mail"
+              aria-label="email"
+            />
+            <button class="subscribe-button" type="submit">
+              Subscribe
+              <svg class="subscribe-svg" width="24" height="20">
+                <use href="./images/icons.svg#paperplane"></use>
+              </svg>
+            </button>
           </form>
         </div>
         <!--END-SUBSCRIBE-->
@@ -529,9 +532,7 @@
               <span class="checkbox-text-link">Privacy Policy</span>
             </label>
           </div>
-          <div class="modal-btn-container">
-            <button class="modal-button" type="submit">Send</button>
-          </div>
+          <button class="modal-button" type="submit">Send</button>
         </form>
         <!--END-MODAL-SEND-FORM-->
       </div>

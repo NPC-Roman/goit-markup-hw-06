@@ -655,9 +655,9 @@ footer .socials-link:active {
   gap: 24px;
 }
 
-.subscribe-item {
+/*.subscribe-item {
   position: relative;
-}
+}*/
 
 .subscribe-button {
   display: flex;
@@ -951,7 +951,7 @@ footer .socials-link:active {
 
   fill: var(--dark-text-color);
 
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-svg.tel-mail {
@@ -1079,8 +1079,16 @@ input[type='checkbox'] {
 }
 
 .modal-button {
-  width: 100%;
+  display: block;
+
+  margin-top: 24px;
+  margin-left: auto;
+  margin-right: auto;
+
+  min-width: 169px;
   height: 56px;
+  
+  /*height: 56px;*/
 
   background-color: var(--primary-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -1099,7 +1107,7 @@ input[type='checkbox'] {
   background-color: var(--hover-color);
 }
 
-.modal-btn-container {
+/*.modal-btn-container {
   display: block;
 
   margin-top: 24px;
